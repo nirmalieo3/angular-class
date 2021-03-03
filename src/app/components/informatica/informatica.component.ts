@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class InformaticaComponent implements OnInit {
   testo1: string ="testo di prova"
   testo2: number = 2;
+  testo3: string = "Hi";
   constructor() { }
 
   ngOnInit(): void {
