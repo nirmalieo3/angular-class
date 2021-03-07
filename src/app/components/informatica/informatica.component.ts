@@ -58,10 +58,10 @@ export class InformaticaComponent implements OnInit {
   addItems(){
     this.arrProva.push({id:'2', descrizione: 'ciao mondo', language: "Italiano"} )
   }
-  verificaId(element){
+  verificaId(element:number){
      console.log(element,'id')
   }
-  verificaTesto(element){
+  verificaTesto(element:string){
     console.log(element, 'testo')
   }
 
